@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+.r1{
+    flex: 8%;
+    margin-right: 1%;
+    background-color: darksalmon;
+}
+.m1{
+    display: flex;
+    flex: 70%;
+    flex-direction: row;
+    margin: 0%;
+    align-items: end;
+    
+}
+.stil{
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 0%;
+    
+}
+.l1{
+    flex: 20%;
+    flex-direction: row;
+    align-items:end;
+}
+.flex-container2{
+    flex: 100%;
+    
+}
+.img1{
+    width:100%;
+    height: auto;
+    margin: 1%;
+}
+.best{
+    width: 200px;
+    height: auto;
+    margin-right: 1%;
+}
+.flex-container4{
+    display: flex;
+    flex-direction: row;
+    flex: 80%;
+    justify-content: space-evenly;
+}
+
+.prod1{
+    flex-direction: column;
+    text-align: center;
+
+}
+.prod1:hover{
+    background-color: gray;
+}
+.flex-container5{
+    text-align: left;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+#bt1{
+    background-color: black;
+    color: aliceblue;
+}
+.flex-container6{
+    flex: 100%;
+}
+.flex-container7{
+    margin-right: 1%;
+}
+.flex-container8{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    padding: 0%;
+    flex-wrap: nowrap;
+    flex: 100%;
+    justify-content: space-evenly;
+}
+.r8{
+    flex: 5%;
+    
+}
+.mr8{
+    display: flex;
+    flex-direction: column;
+    flex: 29%;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ml8{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    text-align: center;
+    margin-top: 5%;
+}
+.l8{
+    flex: 10%;
+}
+#brandpic{
+    width: 200px;
+}
+
+.flex-container10{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: salmon;
+    margin: 0%;
+}
+.footer{
+    background-color: aqua;
+    text-align: center;
+    margin: 0%;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    
+.flex-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    text-align: center;
+    margin-right: 1%;
+}
+.m1{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12%;
+}
+.flex-container4{
+    flex-direction: column;
+}
+#bt1{
+    width: 50%;
+    margin-left: 25%;
+}
+.flex-container8{
+    flex-direction: column;
+}
+.r8{
+    display: none;
+}
+.l8{
+    display: none;
+}
+.flex-container10{
+    flex-direction: column;
+}
+.best{
+    text-align: center;
+    margin-right: 25%;
+}
+}
